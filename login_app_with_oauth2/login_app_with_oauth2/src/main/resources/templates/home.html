@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    .dashboard {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin: 15px;
+      padding: 20px;
+      width: 300px;
+      text-align: center;
+    }
+
+    .card i {
+      font-size: 48px;
+      color: #3498db;
+    }
+
+    .card h2 {
+      color: #333;
+      margin-top: 10px;
+    }
+
+    .card p {
+      color: #777;
+      margin-top: 10px;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="dashboard">
+    <div class="card">
+      <i class="fas fa-chart-bar"></i>
+      <h2>Analytics</h2>
+      <p>Track your website performance</p>
+    </div>
+
+    <div class="card">
+      <i class="fas fa-users"></i>
+      <h2>Users</h2>
+      <p>Manage user accounts</p>
+    </div>
+
+    <div class="card">
+      <i class="fas fa-cog"></i>
+      <h2>Settings</h2>
+      <p>Configure your application</p>
+    </div>
+
+    <!-- Add more cards as needed -->
+
+  </div>
+
+</body>
+</html>
