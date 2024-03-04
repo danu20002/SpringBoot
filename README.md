@@ -1,9 +1,4 @@
-# SpringBoot-
-Complete spring boot tutorials will be uploaded
-
-
-
-
+# SpringBoot-Complete spring boot tutorials will be uploaded
 #Spring Security Example
 
 First Create the Controller Package and Configuration package then create classes respectively in it.
@@ -348,12 +343,12 @@ home.html
 </body>
 </html>
 ```
-<h1>This is the folder strcture.</h1>
+This is the folder strcture.
 ![image](https://github.com/danu20002/SpringBoot-/assets/99582894/f34be6ce-84f8-413f-b819-57e13e8c5117)
 
-<h1>This is Login Page</h1>
+This is Login Page
 ![image](https://github.com/danu20002/SpringBoot-/assets/99582894/b6d93c02-bc14-4481-a918-d4bd0ee80710)
 
-<h1>This is the Home Page</h1>
+This is the Home Page
 ![image](https://github.com/danu20002/SpringBoot-/assets/99582894/48b4c442-6a37-4d4d-901f-b3a1b6ec39dc)
 
